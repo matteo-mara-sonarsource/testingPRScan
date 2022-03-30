@@ -23,8 +23,7 @@ public class Main {
   public static void main(String[] args) {
 
     if (DEPRECATED_STRING_1.equals("deprecatedString1")
-      && DEPRECATED_STRING_2.equals("deprecatedString2")
-      && DEPRECATED_STRING_3.equals("deprecatedString3")) {
+      && DEPRECATED_STRING_2.equals("deprecatedString2")) {
       System.out.println("All Strings are deprecated!");
     }
 
