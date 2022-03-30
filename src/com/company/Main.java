@@ -17,7 +17,7 @@ public class Main {
   public static void main(String[] args) {
 
     if (DEPRECATED_STRING_1.equals("deprecatedString1")
-      && DEPRECATED_STRING_2.equals("deprecatedString2") && true) {
+      && DEPRECATED_STRING_2.equals("deprecatedString2")) {
 
       for (int i = 0; i <10 ; i++) {
         printMessage("message n^" + i);
