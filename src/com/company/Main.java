@@ -16,6 +16,11 @@ public class Main {
 
   public static void main(String[] args) {
 
+    if (DEPRECATED_STRING_2.equals("deprecatedString2")) {
+      System.out.println("Another error incoming!");
+    }
+
+
     if (
       DEPRECATED_STRING_2.equals("deprecatedString2") &&
         DEPRECATED_STRING_1.equals("deprecatedString1")) {
